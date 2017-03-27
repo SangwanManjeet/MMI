@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row products">
+        <div class="col-lg-12">
+            <h2 class="page-header"><i class="fa fa-cog fa-spin fa-3x fa-fw products-icon"></i>Products</h2>
+        </div>
+        <div class="col-md-3 col-sm-6" ng-repeat="p in data.products">
+            <div class="panel panel-default">
+                <div class="panel-heading cursor-pointer" ng-click="clickHandler(c)">
+                    <h4>{{p.p_name}}</h4>
+                </div>                
+            </div>
+        </div>
+    </div>    
+</div>
+
+
