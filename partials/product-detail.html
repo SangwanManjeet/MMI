@@ -5,7 +5,7 @@
         </div>
         <div class="col-md-3 col-sm-6" ng-repeat="p in data.products">
             <div class="panel panel-default">
-                <div class="panel-heading cursor-pointer" ng-click="clickHandler(c)">
+                <div class="panel-heading cursor-pointer"  ui-sref="product-table" ng-click="clickHandler(p.p_name)">
                     <h4>{{p.p_name}}</h4>
                 </div>                
             </div>

@@ -16,9 +16,13 @@ function config($stateProvider, $urlRouterProvider) {
         templateUrl: 'partials/products.html',
         controller: 'product'
     }).state('product-detail', {
-        url: '/products',
+        url: '/products-detail',
         templateUrl: 'partials/product-detail.html',
         controller: 'productDetail'
+    }).state('product-table', {
+        url: '/products-table',
+        templateUrl: 'partials/product-table.html',
+        controller: 'productTable'
     });
 
 }
